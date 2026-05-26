@@ -2,15 +2,34 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Mon Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kodjo - Développeur Web</title>
   <style>
-    body { font-family: Arial; text-align: center; background: #1a1a2e; color: white; }
-    h1 { color: #e94560; margin-top: 100px; }
-    p { font-size: 18px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial; background: #0f0f1a; color: white; }
+    header { background: #1a1a2e; padding: 20px; text-align: center; }
+    header h1 { color: #e94560; font-size: 2em; }
+    header p { color: #aaa; margin-top: 8px; }
+    .services { padding: 40px 20px; text-align: center; }
+    .services h2 { color: #e94560; margin-bottom: 20px; }
+    .card { background: #1a1a2e; padding: 20px; margin: 10px auto; max-width: 400px; border-radius: 10px; }
+    .contact { background: #e94560; text-align: center; padding: 30px; }
+    .contact a { color: white; font-size: 1.2em; }
   </style>
 </head>
 <body>
-  <h1>Bonjour, je suis Kodjo</h1>
-  <p>Je crée des sites web professionnels</p>
+  <header>
+    <h1>Kodjo Joseph</h1>
+    <p>Développeur Web | Je crée des sites professionnels</p>
+  </header>
+  <div class="services">
+    <h2>Mes Services</h2>
+    <div class="card">🌐 Site vitrine pour commerçants</div>
+    <div class="card">📱 Site responsive mobile</div>
+    <div class="card">⚡ Livraison rapide</div>
+  </div>
+  <div class="contact">
+    <a href="mailto:ton@email.com">Contactez-moi</a>
+  </div>
 </body>
 </html>
